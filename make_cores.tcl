@@ -1,12 +1,3 @@
-# ==================================================================================================
-# make_cores.tcl
-#
-# Simple script for creating all the IPs in the cores/ folder of the red-pitaya-notes-master/ folder.
-# Make sure the script is run from the red-pitaya-notes-master/ folder.
-#
-# by Anton Potocnik, 01.10.2016
-# ==================================================================================================
-
 # Tells Vivado which FPGA chip is used
 set part_name xc7z010clg400-1
 

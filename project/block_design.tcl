@@ -4,11 +4,11 @@
 set part_name xc7z010clg400-1
 
 # Creates a constant bd_path for later use when initialising the Block Design
-set bd_path tmp/$project_name.srcs/sources_1/bd/system
+set bd_path tmp/$project_name/$project_name.srcs/sources_1/bd/system
 
-file delete -force tmp
+file delete -force tmp/$project_name
 
-create_project $project_name tmp -part $part_name
+create_project $project_name tmp/$project_name -part $part_name
 
 # Creates a Block Design called system
 create_bd_design system
